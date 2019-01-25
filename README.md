@@ -4,6 +4,7 @@ Design Pattern in c++
 [1. Creational Patterns](#1-creational-patterns)
 
  - [1.1 Singleton](#1.1-singleton)
+ - [1.2 Builder](#1.2-builder)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 <!-- toc -->
@@ -45,3 +46,7 @@ int main()
 	return 0;
 }
 </code></pre>
+
+### 1.2 Builder Pattern
+  Separates object construction from its representation. The **Builder Pattern** is used to separate the construction of a complex object from its representation so that the same construction process can create different objects representations.
+
