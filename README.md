@@ -19,11 +19,7 @@ public:
 	static SingleTon* GetObj()
 	{
 		if (obj == nullptr)
-		{
-			count++;
 			obj = new SingleTon;
-			
-		}
 		return obj;
 	}
 	void print()
@@ -33,12 +29,7 @@ public:
 private:
 	static SingleTon *obj ;
 	static int count;
-	/*SingleTon()
-	{
-		count++;
-	}*/
-	
-	
+	SingleTon(){}
 };
 int SingleTon::count = 0;
 SingleTon *SingleTon::obj = nullptr;
