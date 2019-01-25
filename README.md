@@ -3,7 +3,7 @@ Design Pattern in c++
 
 [1. Creational Patterns](#1-creational-patterns)
 
-  -[1.1 Singleton](#1.1-singleton)
+ - [1.1 Singleton](#1.1-singleton)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 <!-- toc -->
